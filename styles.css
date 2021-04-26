@@ -4,11 +4,12 @@ body{
 }
 
 h1{
-    margin: 10%;
+    font-size: 2.5rem;
+    margin: 10% 15% 10% 15%;
     font-family: Big Shoulders Display;
 }
 p{
-    margin: 10%;
+    margin: 10% 15% 10% 15%;
     font-family: lexend deca;
 }
 .container{
@@ -50,15 +51,28 @@ button{
     border: solid white;
     font-family: lexend deca;
     font-size: medium;
-    margin: 10% 10% 2% 10%;
+    margin: 10% 15% 2% 15%;
     
 }
-button:hover{
+.sedan button:hover{
     cursor: pointer;
-    background-color: rgba(226, 203, 203, 0.350);
+    background-color: rgb(255, 255, 255);
+    color: #ff9a2e;
+   }
+.suv button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #006970;
 }
+
+.luxury button:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: #004241;
+}
+
 svg{
-    margin: 10% 10% 2% 10%;
+    margin: 15% 15% 2% 15%;
 }
 
 .attribution {

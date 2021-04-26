@@ -46,31 +46,30 @@ button{
     border-radius: 5rem;
     height:3rem;
     width: 10rem;
-    color: #fff;
-    background-color: transparent;
-    border: solid white;
     font-family: lexend deca;
     font-size: medium;
     margin: 10% 15% 2% 15%;
+    background-color: white;
+    border: none;
     
 }
-.sedan button:hover{
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
+.sedan button{
     color: #ff9a2e;
-   }
-.suv button:hover{
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-    color: #006970;
 }
+.suv button{
+    color: #006970;
 
-.luxury button:hover{
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
+}
+.luxury button{
     color: #004241;
 }
 
+button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color:white;
+    border: solid #fff;
+}
 svg{
     margin: 15% 15% 2% 15%;
 }
@@ -80,7 +79,7 @@ svg{
         font-size: 11px; 
         text-align: center;
         position: absolute;
-        left: 40%;
+        left: 43%;
         bottom: 5%;
     }
 .attribution a { color: hsl(228, 45%, 44%); }

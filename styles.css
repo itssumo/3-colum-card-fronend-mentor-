@@ -1,0 +1,72 @@
+body{
+    color: white;
+    margin: 10%;
+}
+
+h1{
+    margin: 10%;
+    font-family: Big Shoulders Display;
+}
+p{
+    margin: 10%;
+    font-family: lexend deca;
+}
+.container{
+    position: absolute;
+    width: 20%;
+    height: 65%;
+}
+.sedan{
+    border-top-left-radius: 3%;
+    border-bottom-left-radius: 3%;
+    position: absolute;
+    background-color: #ff9a2e;
+    left: 20%;
+    
+}
+
+.suv{
+    position: absolute;
+    background-color: #006970;
+    left: 40%;
+}
+
+.luxury{
+    border-top-right-radius: 3%;
+    border-bottom-right-radius: 3%;
+    position: absolute;
+    left: 60%;
+    background-color: #004241;
+}   
+
+button{
+    position: absolute;
+    bottom: 10%;
+    border-radius: 5rem;
+    height:3rem;
+    width: 10rem;
+    color: #fff;
+    background-color: transparent;
+    border: solid white;
+    font-family: lexend deca;
+    font-size: medium;
+    margin: 10% 10% 2% 10%;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(226, 203, 203, 0.350);
+}
+svg{
+    margin: 10% 10% 2% 10%;
+}
+
+.attribution {
+        color: black;
+        font-size: 11px; 
+        text-align: center;
+        position: absolute;
+        left: 40%;
+        bottom: 5%;
+    }
+.attribution a { color: hsl(228, 45%, 44%); }
